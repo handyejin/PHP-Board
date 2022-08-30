@@ -48,11 +48,11 @@ function insertBoard() {
 /**
  * 게시판 글 작성 후 페이지 이동
  */
-function insertBoardCallBack(){
+function insertBoardCallBack() {
     alert("글이 작성되었습니다.");
     goBoardList(1);
 }
 
-function goBoardList(){
+function goBoardList() {
     location.href = "../view/boardList.php";
 }
