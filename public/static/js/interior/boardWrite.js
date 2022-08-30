@@ -3,7 +3,7 @@ const URL = "../../application/ajax/mapper.php"
 /**
  * 게시판 글쓰기 ajax 호출
  */
-function insertBoard(){
+function insertBoard() {
     let type = $('#type').val();
     let sWriter = $('#sWriter').val().trim();
     let sTitle = $('#sTitle').val().trim();
