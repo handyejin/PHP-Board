@@ -48,7 +48,7 @@ class Pagination
             $this->setEndPage($this->getLastPage());
         }
         $this->setStartPage($this->getEndPage() - $pageSize +1);
-        if($this->getStartPage()<1){
+        if($this->getStartPage()<1) {
             $this->setStartPage(1);
         }
     }
