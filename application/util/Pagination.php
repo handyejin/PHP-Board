@@ -65,7 +65,6 @@ class Pagination
         return array('page'=>$this->page, 'totalCnt'=>$this->totalCnt, 'startPage'=>$this->startPage, 'endPage'=>$this->endPage, 'start'=>$this->start, 'lastPage'=>$this->lastPage, 'prev'=>$this->prev, 'next'=>$this->next);
     }
 
-
     public function getPage()
     {
         return $this->page;
