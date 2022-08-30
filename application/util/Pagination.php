@@ -26,7 +26,6 @@ class Pagination
 
         $this->prev = $this->getStartPage()>1;
         $this->next = $this->getEndPage()<$this->getLastPage();
-
     }
 
     /**
