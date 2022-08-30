@@ -32,7 +32,7 @@ function insertBoard(){
             dataType: "json",
             success: function (obj) {
                 console.log(obj);
-                if (200 == obj['status']) {
+                if (200 == obj["status"]) {
                     insertBoardCallBack();
                 } else {
                     alert("ajax 통신 실패" + obj.desc);
